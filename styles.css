@@ -1,0 +1,112 @@
+.main-body {
+    
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-06/lab/assets/salmon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+body {
+    
+    background-color: lavender;
+}
+
+h1 {
+
+    font-family: 'Luckiest Guy', cursive;
+    font-size: xx-large;
+    color: salmon;
+    background-color: transparent;
+    text-align: center;
+    padding: 10%;
+    margin: auto;
+    border-style: solid;
+    border-color: teal;
+    width: max-content;
+    height: max-content;
+}
+
+nav {
+
+    margin: auto;
+    padding: 10;
+    width: auto;
+    height: auto;
+}
+
+#ul1 {
+    background-color: transparent;
+    padding: 20%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#li1 {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    display: inline-block;
+    padding: 10px;
+}
+#li2 {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    display: inline-block;
+    padding: 10px;
+}
+#li3 {
+    list-style-type: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    display: inline-block;
+    padding: 10px;
+}
+
+a {
+    color: chartreuse;
+}
+
+
+section {
+
+    font-family: 'lobster', cursive;
+    font-size: x-large;
+    color: rgb(255, 28, 28);
+    background-color: transparent;
+    text-align: center;
+    padding: 0%;
+    margin: 25px;
+    border-style: dotted;
+    border-color: teal;
+}
+
+h2 {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(43, 130, 211);
+    text-align: center;
+    font-size: large;
+    color: black;
+    border-style: double;
+    padding: 0%;
+    margin: 0%;
+}
+
+#array_target {
+    
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-06/lab/assets/salmon.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+#main2 {
+    background-color: cornflowerblue;
+}
