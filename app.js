@@ -88,6 +88,40 @@ store4.renderTableRow();
 store5.averageCookiesPurchased();
 store5.renderTableRow();
 
+footerRender(); 
+let storeFormEl = document.getElementById('addStore');
+
+function GenerateStore (formSubmission) {
+    formSubmission.preventDefault();
+    let name = formSubmission.target.storeName.value;
+    let min_cus = formSubmission.target.mincus.value;
+    let max_cus = formSubmission.target.maxcus.value;
+    let average_cook = formSubmission.target.avgcookie.value;
+    this.hourly_sales = [];
+    this.dailySales = 0;
+    // formSubmission.target.mincus.value = this.min_customers;
+    // formSubmission.target.maxcus.value = this.max_customers;
+    // formSubmission.target.avgcookie.value = this.average_cookies;
+
+    let storex = new Store(name, min_cus, max_cus, average_cook);
+    print(storex)
+    let parentEl = document.getElementById('sales-data');
+    let rowEl = document.createElement('tr');
+    let dataEl = document.createElement('td');
+    dataEl.innerText = name;
+    rowEl.appendChild(dataEl);
+    parentEl.appendChild(rowEl);
+    dataEl = document.createElement('td');
+    dataEl.innerText = this.dailySales;
+    rowEl.appendChild(dataEl);
+    parentEl.appendChild(rowEl);
+    
+}
+storeFormEl.addEventListener('submit', GenerateStore);
+
+
+
+
 print(Store.all);
 
 function footerRender() {
@@ -114,4 +148,5 @@ function footerRender() {
     parentEl.appendChild(rowEl);
 }
 
-footerRender();
+
+
