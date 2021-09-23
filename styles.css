@@ -4,6 +4,51 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-color: black;
+    
+}
+.highlights {
+    background-color: lavender;
+    height: 15vw;
+    background-position: center;
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-06/lab/assets/salmon.png);
+    background-repeat: no-repeat;
+}
+
+
+#section1 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/chinook.jpg);
+    height: 12vw;
+    background-repeat: no-repeat;
+    color: blueviolet;
+   
+}
+#section2 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/cutter.jpeg);
+    height: 15vw;
+    background-repeat: no-repeat;
+}
+#section3 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/family.jpg);
+    height: 30vw;
+    width: 50vw;
+    background-repeat: no-repeat;
+    color: brown;
+}
+#section4 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/fish.jpg);
+    height: 17vw;
+    background-repeat: no-repeat;
+}
+#section5 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/frosted-cookie.jpg);
+    height: 11vw;
+    background-repeat: no-repeat;
+}
+#section6 {
+    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-08/lab-b/assets/shirt.jpg);
+    height: 21vw;
+    background-repeat: no-repeat;
     
 }
 
@@ -36,7 +81,7 @@ nav {
 }
 
 #ul1 {
-    background-color: transparent;
+    background-color: black;
     padding: 20%;
     text-align: center;
     padding: 10px;
@@ -66,6 +111,7 @@ nav {
     font-size: large;
     display: inline-block;
     padding: 10px;
+    
 }
 
 a {
@@ -98,15 +144,10 @@ h2 {
     margin: 0%;
 }
 
-#array_target {
-    
-    background-image: url(https://raw.githubusercontent.com/codefellows/seattle-code-201d79/main/class-06/lab/assets/salmon.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    
-}
 
 #main2 {
     background-color: cornflowerblue;
+}
+.highlights1 {
+    color: brown;
 }
