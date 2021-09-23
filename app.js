@@ -88,6 +88,29 @@ store4.renderTableRow();
 store5.averageCookiesPurchased();
 store5.renderTableRow();
 
+footerRender(); 
+
+let storeFormEl = document.getElementById('addStore');
+
+function GenerateStore (formSubmission) {
+    formSubmission.preventDefault();
+    let name = formSubmission.target.storeName.value;
+    let min_cus = formSubmission.target.mincus.value;
+    let max_cus = formSubmission.target.maxcus.value;
+    let average_cook = formSubmission.target.avgcookie.value;
+    let newMinCus = parseInt(min_cus);
+    let newMaxCus = parseInt(max_cus);
+    let newAvgDaily = parseInt(average_cook);
+
+    let storex = new Store(name, newMinCus, newMaxCus, newAvgDaily);
+    print(storex)
+    storex.averageCookiesPurchased();
+    storex.renderTableRow();
+    
+}
+storeFormEl.addEventListener('submit', GenerateStore);
+
+
 print(Store.all);
 
 function footerRender() {
@@ -114,4 +137,5 @@ function footerRender() {
     parentEl.appendChild(rowEl);
 }
 
-footerRender();
+
+

@@ -24,6 +24,20 @@
             <table id='sales-data'>
               
             </table>
+            <form id='addStore'>
+              <fieldset>
+                <legend>Add a store</legend>
+                <label>Store location</label>
+                <input name='storeName' type='text' required>
+                <label>Minimum customers per hour</label>
+                <input name='mincus' type= [number] required>
+                <label>Maximum customers per hour</label>
+                <input name='maxcus' type= number required>
+                <label>Average cookies sold per customer</label>
+                <input name='avgcookie' type= number step='0.1' required>
+                <button>Generate Store</button>
+              </fieldset>
+            </form>
     </main>
 
     <footer>
