@@ -151,3 +151,24 @@ h2 {
 .highlights1 {
     color: brown;
 }
+
+#sales-data {
+    border: blue;
+    border-style: dashed;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+td {
+    border-style: solid;
+    border-color: orange;
+}
+#footer td {
+    border-style: solid;
+    border-color: green;
+}
+#sales-data th {
+    border-style: solid;
+    border-color: turquoise;
+}
